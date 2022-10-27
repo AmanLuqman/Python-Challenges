@@ -1,0 +1,7 @@
+Mystring = "adtrsft"
+
+print(Mystring)
+
+print(Mystring[-1:-8:-1])
+
+print(Mystring[1:7:2])
