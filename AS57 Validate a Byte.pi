@@ -1,0 +1,6 @@
+mybits = int(input("please enter 7 bits"))
+remainder = mybits % 2
+if (remainder==0):
+  print("parity bit is 0")
+if (remainder==1):
+  print("parity bit is 1")
