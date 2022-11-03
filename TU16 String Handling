@@ -1,0 +1,20 @@
+print ("excercise 1")
+RM = 129
+print("RM",RM,)
+print("")
+print("exercise 2")
+
+Binary = 10001
+Hexadecimal = 1010001
+Decimal = 17
+
+print("\nDifferent forms of 17")
+for i in range(1):
+  print(f"Binary: {10001:b}\nHexadecimal: {1010001:x}\nDecimal: {17:d}")
+print("")
+print("exercise 3")
+
+a = int(input("input a number less than or equal to 255"))
+bin_a = bin(a)
+print(bin_a)
+print("original decimal number:",a,)
