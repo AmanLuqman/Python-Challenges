@@ -1,0 +1,4 @@
+import random
+Insult = random.choice(["Wow you're bad at this","Bro why r u so bad at this XD","This is a waste of time explaining to you","Dude it is NOT that hard to understand","Don't you have anything better to do","Just go do something else man","Lol get rekt bro","You thought I was gonna say something this time...oh I just did...just shut up"])
+StudentName = input("What is your name?")
+print(Insult,StudentName)
